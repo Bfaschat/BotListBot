@@ -13,25 +13,16 @@ LOG_DIR = config('LOG_DIR', default=os.path.dirname(os.path.abspath(__file__)))
 BOT_THUMBNAIL_DIR = config('BOT_THUMBNAIL_DIR',
                            default=os.path.expanduser(
                                '/home/joscha/data/botlistbot/bot-profile-pictures'))
-MODERATORS = [62056065,  # JosXa
-              918962,  # T3CHNO
-              7679610,
-              278941742,
-              127782573,
-              43740047,
-              317434635,
-              2591224,  # OWL
-              473862645  # Lulzx
-              ]
-ADMINS = [62056065, 918962]
+MODERATORS = [197005208]
+ADMINS = [197005208]
 BOT_CONSIDERED_NEW = 1  # Revision difference
 WORKER_COUNT = 5 if DEV else 20
-SELF_BOT_NAME = "josxasandboxbot" if DEV else "botlistbot"
+SELF_BOT_NAME = "Bfaschatbot" if DEV else "bfasdevsbot"
 SELF_BOT_ID = "182355371" if DEV else "265482650"
-BOTLIST_NOTIFICATIONS_ID = -1001074366879
-BOTLISTCHAT_ID = -1001118582923 if DEV else -1001067163791
-BLSF_ID = -1001098339113
-SELF_CHANNEL_USERNAME = "botlist_testchannel" if DEV else "botlist"
+BOTLIST_NOTIFICATIONS_ID = -1001258815617
+BOTLISTCHAT_ID = -1001258815617 if DEV else -1001258815617
+BLSF_ID = -1001258815617
+SELF_CHANNEL_USERNAME = "bfas237bots" if DEV else "bfas237bots"
 REGEX_BOT_IN_TEXT = r'.*(@[a-zA-Z0-9_]{3,31}).*'
 REGEX_BOT_ONLY = r'(@[a-zA-Z0-9_]{3,31})'
 PAGE_SIZE_SUGGESTIONS_LIST = 5
