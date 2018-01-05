@@ -29,8 +29,8 @@ if __name__ == "__main__":
     APIAccess.create_table(fail_silently=True)
 
     APIAccess.insert({
-        'user': User.get(User.username == 'Josxa'),
-        'token': '5f25218eb541b992b926c2e831d9e611853158e9bd69af56a760b717922029a9',
+        'user': User.get(User.username == 'Bfaschatsbot'),
+        'token': '474609801:AAFrSFYP9YXPFa5OmQReEjTn6Rs44XQVuDM',
     }).execute()
 
     # Country.insert_many([
